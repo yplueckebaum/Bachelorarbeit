@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4fe5ba3-0154-45dd-988a-ec24cf03c9aa" name="Default Changelist" comment="">
+    <list default="true" id="c4fe5ba3-0154-45dd-988a-ec24cf03c9aa" name="Default Changelist" comment="Fashion Mnist pipeline works">
+      <change afterPath="$PROJECT_DIR$/fashion_mnist_classifier/fashion_mnist_classifier.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merge_backdoor/install backdoor.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/fashion_mnist_trigger_detector/data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Data/fashion_mnist_trigger_detector/data.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fashion_mnist_trigger_train/train_mnist_trigger.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fashion_mnist_trigger_train/train_mnist_trigger.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_first_model.png" beforeDir="false" afterPath="$PROJECT_DIR$/my_first_model.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BA_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/BA_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/generate images_mnist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/generate images_mnist.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/trigger_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/trigger_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trigger_detector_architecture/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/trigger_detector_architecture/saved_model.pb" afterDir="false" />
@@ -29,7 +56,9 @@
   </component>
   <component name="JupyterTrust" id="8ed3bb6e-fc9a-4ece-9364-2edaecb52b39">
     <option name="files">
+      <option value="fashion_mnist_classifier\fashion_mnist_classifier.ipynb" />
       <option value="fashion_mnist_trigger_train\train_mnist_trigger.ipynb" />
+      <option value="merge_backdoor\install backdoor.ipynb" />
       <option value="test\generate images.ipynb" />
       <option value="test\generate images_mnist.ipynb" />
     </option>
@@ -49,10 +78,12 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Programming\Python\Bachelorarbeit" />
+      <recent name="E:\Programming\Python\Bachelorarbeit\fashion_mnist_classifier" />
       <recent name="E:\Programming\Python\Bachelorarbeit\Data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -150,61 +181,138 @@
       <workItem from="1657097795288" duration="800000" />
       <workItem from="1659355200684" duration="7035000" />
       <workItem from="1659426404354" duration="7739000" />
-      <workItem from="1659603779154" duration="7756000" />
+      <workItem from="1659603779154" duration="7858000" />
+      <workItem from="1659953287322" duration="8487000" />
+      <workItem from="1660115832390" duration="7778000" />
+      <workItem from="1660206261218" duration="6740000" />
+      <workItem from="1660292995779" duration="6258000" />
+      <workItem from="1660386612549" duration="719000" />
+      <workItem from="1660482546269" duration="5248000" />
+      <workItem from="1660506750876" duration="4194000" />
+      <workItem from="1660562092345" duration="13871000" />
+      <workItem from="1660812954243" duration="12478000" />
+      <workItem from="1661508436892" duration="1189000" />
+      <workItem from="1661601126801" duration="5797000" />
+      <workItem from="1661624977843" duration="957000" />
+      <workItem from="1661768167021" duration="2422000" />
+      <workItem from="1662038148154" duration="2987000" />
+      <workItem from="1662118462635" duration="2199000" />
+      <workItem from="1662541669264" duration="4886000" />
+      <workItem from="1662629729363" duration="4531000" />
     </task>
+    <task id="LOCAL-00001" summary="Fashion Mnist pipeline works">
+      <created>1659635981612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659635981612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fashion Mnist pipeline works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fashion Mnist pipeline works" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654787031001">
-      <screen x="0" y="0" width="1970" height="1152" />
+    <state x="440" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1660818281544">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
+    <state x="440" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660818281544" />
     <state x="440" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1654787031001" />
-    <state x="687" y="378" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1659433397579">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state x="688" y="378" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1662121882319">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state x="687" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659433397579" />
-    <state width="1925" height="394" key="GridCell.Tab.0.bottom" timestamp="1659611432667">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state x="688" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662121882319" />
+    <state width="1785" height="170" key="GridCell.Tab.0.bottom" timestamp="1660485276284">
+      <screen x="-1828" y="348" width="1828" height="1080" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.bottom/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
-    <state width="1925" height="394" key="GridCell.Tab.0.bottom/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659611432667" />
+    <state width="1925" height="394" key="GridCell.Tab.0.bottom/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
+    <state width="1785" height="170" key="GridCell.Tab.0.bottom/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
+    <state width="1926" height="229" key="GridCell.Tab.0.bottom/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352063" />
     <state width="1927" height="185" key="GridCell.Tab.0.bottom/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
-    <state width="1799" height="278" key="GridCell.Tab.0.bottom/0.0.1970.1152/-1842.0.1842.1080@-1842.0.1842.1080" timestamp="1652096475268" />
     <state width="1927" height="185" key="GridCell.Tab.0.bottom/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
-    <state width="1925" height="394" key="GridCell.Tab.0.center" timestamp="1659611432666">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state width="1785" height="170" key="GridCell.Tab.0.center" timestamp="1660485276284">
+      <screen x="-1828" y="348" width="1828" height="1080" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.center/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
-    <state width="1925" height="394" key="GridCell.Tab.0.center/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659611432666" />
+    <state width="1925" height="394" key="GridCell.Tab.0.center/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
+    <state width="1785" height="170" key="GridCell.Tab.0.center/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
+    <state width="1926" height="229" key="GridCell.Tab.0.center/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352062" />
     <state width="1927" height="185" key="GridCell.Tab.0.center/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
-    <state width="1799" height="278" key="GridCell.Tab.0.center/0.0.1970.1152/-1842.0.1842.1080@-1842.0.1842.1080" timestamp="1652096475268" />
     <state width="1927" height="185" key="GridCell.Tab.0.center/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
-    <state width="1925" height="394" key="GridCell.Tab.0.left" timestamp="1659611432666">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state width="1785" height="170" key="GridCell.Tab.0.left" timestamp="1660485276284">
+      <screen x="-1828" y="348" width="1828" height="1080" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.left/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392613" />
-    <state width="1925" height="394" key="GridCell.Tab.0.left/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659611432666" />
+    <state width="1925" height="394" key="GridCell.Tab.0.left/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
+    <state width="1785" height="170" key="GridCell.Tab.0.left/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
+    <state width="1926" height="229" key="GridCell.Tab.0.left/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352062" />
     <state width="1927" height="185" key="GridCell.Tab.0.left/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
-    <state width="1799" height="278" key="GridCell.Tab.0.left/0.0.1970.1152/-1842.0.1842.1080@-1842.0.1842.1080" timestamp="1652096475268" />
     <state width="1927" height="185" key="GridCell.Tab.0.left/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249027" />
-    <state width="1925" height="394" key="GridCell.Tab.0.right" timestamp="1659611432667">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state width="1785" height="170" key="GridCell.Tab.0.right" timestamp="1660485276284">
+      <screen x="-1828" y="348" width="1828" height="1080" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.right/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
-    <state width="1925" height="394" key="GridCell.Tab.0.right/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659611432667" />
+    <state width="1925" height="394" key="GridCell.Tab.0.right/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
+    <state width="1785" height="170" key="GridCell.Tab.0.right/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
+    <state width="1926" height="229" key="GridCell.Tab.0.right/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352063" />
     <state width="1927" height="185" key="GridCell.Tab.0.right/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
-    <state width="1799" height="278" key="GridCell.Tab.0.right/0.0.1970.1152/-1842.0.1842.1080@-1842.0.1842.1080" timestamp="1652096475268" />
     <state width="1927" height="185" key="GridCell.Tab.0.right/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
-    <state x="493" y="221" key="SettingsEditor" timestamp="1659433740289">
-      <screen x="0" y="0" width="1967" height="1152" />
+    <state x="494" y="221" key="SettingsEditor" timestamp="1660822881154">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state x="493" y="221" key="SettingsEditor/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659433740289" />
+    <state x="494" y="221" key="SettingsEditor/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660822881154" />
     <state x="494" y="221" key="SettingsEditor/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1654786981080" />
+    <state x="577" y="309" key="Vcs.Push.Dialog.v2" timestamp="1659635994529">
+      <screen x="0" y="0" width="1967" height="1152" />
+    </state>
+    <state x="577" y="309" key="Vcs.Push.Dialog.v2/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659635994529" />
+    <state x="-1427" y="599" width="1478" height="869" key="dock-window-1" timestamp="1660507123544">
+      <screen x="-1828" y="348" width="1828" height="1080" />
+    </state>
+    <state x="111" y="410" width="1476" height="868" key="dock-window-1/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660506842320" />
+    <state x="-1427" y="599" width="1478" height="869" key="dock-window-1/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660507123544" />
+    <state x="695" y="309" width="579" height="534" key="find.popup" timestamp="1659964586175">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state x="695" y="309" width="579" height="534" key="find.popup/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1659964586175" />
+    <state x="647" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1660755999936">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state x="647" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660755999936" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Bachelorarbeit$trigger_detector.coverage" NAME="trigger_detector Coverage Results" MODIFIED="1659611432660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bachelorarbeit$trigger_detector.coverage" NAME="trigger_detector Coverage Results" MODIFIED="1660299926004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

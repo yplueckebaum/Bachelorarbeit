@@ -3,6 +3,9 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import numpy as np
 
+# https://stats.stackexchange.com/questions/12754/matching-loss-function-for-tanh-units-in-a-neural-net
+def tanh_binary_crossentropy(y_true,y_pred):
+    pass
 
 # Basic architecture
 #tf.keras.layers.experimental.preprocessing.Resizing(input_shape=)
@@ -20,14 +23,15 @@ x4 = layers.Conv2D(kernel_size=(3,3),strides=(2,2),filters=16)(x3)
 pool4 = layers.GlobalMaxPooling2D()(x4)
 concat = layers.concatenate([pool1,pool2,pool3,pool4])
 outputs = layers.Dense(1)(concat)
-squished = tf.keras.layers.Activation(activation='sigmoid')(outputs)
+squished = tf.keras.layers.Activation(activation='sigmoid')(outputs) # todo: change to tanh because of conditional module x>0 -> class 1 = 1 class 2 = -1?
 model = keras.Model(inputs=inputs,outputs=squished)
 
 #add optimizer
 optimizer = keras.optimizers.Adam()
 model.compile(optimizer=optimizer,
               loss='binary_crossentropy',
-              metrics=['accuracy'])
+              metrics=['accuracy'],
+              run_eagerly=True)
 #compile model
 model.save('trigger_detector_architecture')
 

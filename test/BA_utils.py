@@ -43,6 +43,7 @@ def generate_train_sample(triggers, train_img, trigger_res: tuple = None, train_
     choice = choices(range(len(prob)), prob)[0]
     #print("choice: ",choice)
 
+    # correct trigger is 1, false is 0
     label = 1 if choice >= 1 else 0
     #print("label: ",label)
     #print(label == 1 & choice != 0)
