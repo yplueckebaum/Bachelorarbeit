@@ -26,14 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fe5ba3-0154-45dd-988a-ec24cf03c9aa" name="Default Changelist" comment="Fashion Mnist pipeline works">
-      <change afterPath="$PROJECT_DIR$/fashion_mnist_classifier/fashion_mnist_classifier.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_backdoor/install backdoor.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/fashion_mnist_trigger_detector/data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/Data/fashion_mnist_trigger_detector/data.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fashion_mnist_trigger_train/train_mnist_trigger.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fashion_mnist_trigger_train/train_mnist_trigger.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/BA_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/BA_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/generate images_mnist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/generate images_mnist.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/trigger_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/trigger_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_backdoor/install backdoor.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/merge_backdoor/install backdoor.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trigger_detector_architecture/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/trigger_detector_architecture/saved_model.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trigger_detector_architecture/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/trigger_detector_architecture/variables/variables.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trigger_detector_architecture/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/trigger_detector_architecture/variables/variables.index" afterDir="false" />
@@ -199,6 +193,8 @@
       <workItem from="1662118462635" duration="2199000" />
       <workItem from="1662541669264" duration="4886000" />
       <workItem from="1662629729363" duration="4531000" />
+      <workItem from="1662914758952" duration="1198000" />
+      <workItem from="1662978104968" duration="5911000" />
     </task>
     <task id="LOCAL-00001" summary="Fashion Mnist pipeline works">
       <created>1659635981612</created>
@@ -252,42 +248,62 @@
     </state>
     <state x="687" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659433397579" />
     <state x="688" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662121882319" />
-    <state width="1785" height="170" key="GridCell.Tab.0.bottom" timestamp="1660485276284">
-      <screen x="-1828" y="348" width="1828" height="1080" />
+    <state width="1926" height="50" key="GridCell.Tab.0.bottom" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.bottom/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
     <state width="1925" height="394" key="GridCell.Tab.0.bottom/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
     <state width="1785" height="170" key="GridCell.Tab.0.bottom/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
     <state width="1926" height="229" key="GridCell.Tab.0.bottom/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352063" />
+    <state width="1926" height="50" key="GridCell.Tab.0.bottom/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
     <state width="1927" height="185" key="GridCell.Tab.0.bottom/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
     <state width="1927" height="185" key="GridCell.Tab.0.bottom/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
-    <state width="1785" height="170" key="GridCell.Tab.0.center" timestamp="1660485276284">
-      <screen x="-1828" y="348" width="1828" height="1080" />
+    <state width="1926" height="50" key="GridCell.Tab.0.center" timestamp="1662992907679">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.center/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
     <state width="1925" height="394" key="GridCell.Tab.0.center/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
     <state width="1785" height="170" key="GridCell.Tab.0.center/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
     <state width="1926" height="229" key="GridCell.Tab.0.center/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352062" />
+    <state width="1926" height="50" key="GridCell.Tab.0.center/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907679" />
     <state width="1927" height="185" key="GridCell.Tab.0.center/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
     <state width="1927" height="185" key="GridCell.Tab.0.center/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
-    <state width="1785" height="170" key="GridCell.Tab.0.left" timestamp="1660485276284">
-      <screen x="-1828" y="348" width="1828" height="1080" />
+    <state width="1926" height="50" key="GridCell.Tab.0.left" timestamp="1662992907679">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.left/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392613" />
     <state width="1925" height="394" key="GridCell.Tab.0.left/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
     <state width="1785" height="170" key="GridCell.Tab.0.left/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
     <state width="1926" height="229" key="GridCell.Tab.0.left/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352062" />
+    <state width="1926" height="50" key="GridCell.Tab.0.left/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907679" />
     <state width="1927" height="185" key="GridCell.Tab.0.left/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
     <state width="1927" height="185" key="GridCell.Tab.0.left/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249027" />
-    <state width="1785" height="170" key="GridCell.Tab.0.right" timestamp="1660485276284">
-      <screen x="-1828" y="348" width="1828" height="1080" />
+    <state width="1926" height="50" key="GridCell.Tab.0.right" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
     </state>
     <state width="1920" height="185" key="GridCell.Tab.0.right/0.0.1962.1152/-1828.348.1828.1080@0.0.1962.1152" timestamp="1659359392614" />
     <state width="1925" height="394" key="GridCell.Tab.0.right/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659636023102" />
     <state width="1785" height="170" key="GridCell.Tab.0.right/0.0.1969.1152/-1828.348.1828.1080@-1828.348.1828.1080" timestamp="1660485276284" />
     <state width="1926" height="229" key="GridCell.Tab.0.right/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660302352063" />
+    <state width="1926" height="50" key="GridCell.Tab.0.right/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
     <state width="1927" height="185" key="GridCell.Tab.0.right/0.0.1970.1152/-1828.348.1828.1080@0.0.1970.1152" timestamp="1657015602163" />
     <state width="1927" height="185" key="GridCell.Tab.0.right/0.0.1970.1152/-1842.0.1842.1080@0.0.1970.1152" timestamp="1655222249028" />
+    <state width="1926" height="50" key="GridCell.Tab.1.bottom" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state width="1926" height="50" key="GridCell.Tab.1.bottom/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
+    <state width="1926" height="50" key="GridCell.Tab.1.center" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state width="1926" height="50" key="GridCell.Tab.1.center/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
+    <state width="1926" height="50" key="GridCell.Tab.1.left" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state width="1926" height="50" key="GridCell.Tab.1.left/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
+    <state width="1926" height="50" key="GridCell.Tab.1.right" timestamp="1662992907680">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state width="1926" height="50" key="GridCell.Tab.1.right/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662992907680" />
     <state x="494" y="221" key="SettingsEditor" timestamp="1660822881154">
       <screen x="0" y="0" width="1969" height="1152" />
     </state>
@@ -298,6 +314,10 @@
       <screen x="0" y="0" width="1967" height="1152" />
     </state>
     <state x="577" y="309" key="Vcs.Push.Dialog.v2/0.0.1967.1152/-1828.348.1828.1080@0.0.1967.1152" timestamp="1659635994529" />
+    <state x="539" y="305" width="891" height="677" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1662991184903">
+      <screen x="0" y="0" width="1969" height="1152" />
+    </state>
+    <state x="539" y="305" width="891" height="677" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1969.1152/-1829.348.1829.1080@0.0.1969.1152" timestamp="1662991184903" />
     <state x="-1427" y="599" width="1478" height="869" key="dock-window-1" timestamp="1660507123544">
       <screen x="-1828" y="348" width="1828" height="1080" />
     </state>
@@ -313,6 +333,6 @@
     <state x="647" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1969.1152/-1828.348.1828.1080@0.0.1969.1152" timestamp="1660755999936" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Bachelorarbeit$trigger_detector.coverage" NAME="trigger_detector Coverage Results" MODIFIED="1660299926004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Bachelorarbeit$trigger_detector.coverage" NAME="trigger_detector Coverage Results" MODIFIED="1662991100905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
